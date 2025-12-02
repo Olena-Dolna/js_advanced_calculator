@@ -23,7 +23,7 @@ function makeCalculator() {
       return result / number;
     },
 
-    reset(number) {
+    reset() {
       this.result = 0;
 
       return this;
